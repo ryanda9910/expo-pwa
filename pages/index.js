@@ -1,22 +1,9 @@
-// @generated: @expo/next-adapter@2.1.52
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import App from '../router/routes'
 
-export default function App() {
+export default function index() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
-    </View>
-  );
+    <App/>
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 16,
-  },
-});
